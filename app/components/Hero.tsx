@@ -1,0 +1,34 @@
+export default function Hero() {
+  return (
+    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#0cc0df]/40 via-white to-[#ff8c63]/40">
+      <div className="max-w-7xl mx-auto w-full">
+        <div className="text-center">
+          <div className="inline-block mb-6">
+            <span className="px-4 py-2 bg-[#0cc0df]/10 text-[#0cc0df] rounded-full text-sm font-medium">
+              🎾 Complete Court Management Solution
+            </span>
+          </div>
+          <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-6 leading-tight">
+            Manage Your Courts
+            <br />
+            <span className="bg-gradient-to-r from-[#0cc0df] via-[#ff8c63] to-[#0cc0df] bg-clip-text text-transparent animate-gradient">
+              Like a Pro
+            </span>
+          </h1>
+          <p className="text-xl md:text-2xl text-slate-600 mb-10 max-w-3xl mx-auto leading-relaxed">
+            All-in-one platform for court management, reservations, queue systems, and membership. Streamline operations and enhance player experience.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <button className="hover:cursor-pointer w-full sm:w-auto bg-[#0cc0df] text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              Start Free Trial
+            </button>
+            <button className="hover:cursor-pointer w-full sm:w-auto bg-white text-slate-900 px-8 py-4 rounded-full text-lg font-semibold border-2 border-slate-200 hover:border-[#0cc0df] transition-all duration-300">
+              Watch Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
