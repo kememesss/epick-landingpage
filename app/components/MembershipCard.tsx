@@ -27,14 +27,14 @@ export default function MembershipCard({
 
   const buttonStyles = {
     basic: 'w-full bg-slate-100 text-slate-900 px-6 py-3 rounded-full font-semibold hover:bg-slate-200 transition-colors',
-    popular: 'w-full bg-gradient-to-r from-[#0cc0df] to-[#ff8c63] text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105',
+    popular: 'w-full bg-[#0cc0df] text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105',
     premium: 'w-full bg-slate-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-slate-800 transition-colors',
   };
 
   return (
     <div className={cardStyles[buttonStyle]}>
       {isPopular && (
-        <div className="absolute top-0 right-0 bg-gradient-to-r from-[#0cc0df] to-[#ff8c63] text-white px-4 py-1 rounded-bl-lg rounded-tr-2xl text-sm font-semibold shadow-lg">
+        <div className="absolute top-0 right-0 bg-[#0cc0df] text-white px-4 py-1 rounded-bl-lg rounded-tr-2xl text-sm font-semibold">
           Popular
         </div>
       )}

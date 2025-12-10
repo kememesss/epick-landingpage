@@ -6,6 +6,27 @@
   /* Epick! Brand Colors */
   --color-primary: #0cc0df; /* Aqua Blue */
   --color-secondary: #ff8c63; /* Coral Orange */
+  --color-tertiary: #10b981; /* Green */
+  
+  /* Gray Scale */
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+  
+  /* Color Variations */
+  --orange-light: #ffb896;
+  --orange-dark: #e66b4a;
+  --blue-light: #4dd4ed;
+  --blue-dark: #0a9fb8;
+  --green-light: #34d399;
+  --green-dark: #059669;
 }
 
 @theme inline {

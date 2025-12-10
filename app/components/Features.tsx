@@ -162,10 +162,10 @@ export default function Features() {
     <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#111827] mb-4">
             Powerful Features
           </h2>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+          <p className="text-xl text-[#4b5563] max-w-2xl mx-auto">
             Everything you need to run your court facility efficiently
           </p>
         </div>
